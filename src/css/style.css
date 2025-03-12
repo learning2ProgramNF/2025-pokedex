@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    background-color: #f4f7fc;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for Pokémon list items */
+.pokemon-item {
+    list-style: none;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.pokemon-card-btn {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+}
+
+.pokemon-card-btn:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Modal content styles */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.modal-img {
+    margin: 10px 0;
+    border-radius: 8px;
+    max-height: 200px; /* Smaller height for better visibility */
+    width: auto; /* Make sure images stay proportional */
+    object-fit: contain; /* Ensure the images fit within their container */
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pokemon-card-btn {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .pokemon-item {
+        flex: 0 0 30%;
+    }
+}
