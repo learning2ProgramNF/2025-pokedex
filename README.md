@@ -1,5 +1,3 @@
-Sure! Here is a sample `README.md` file for the Pokémon repository project.
-
 ---
 
 # 2025 Pokedex
